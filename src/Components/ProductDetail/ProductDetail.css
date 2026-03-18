@@ -1,0 +1,99 @@
+.product-detail {
+  display: flex;
+  margin: 0px 170px;
+}
+
+.product-detail-left {
+  display: flex;
+  gap: 17px;
+}
+
+.image-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.image-list img {
+  height: 163px;
+}
+
+.main-image {
+  width: 586px;
+  height: 700px;
+}
+
+.product-detail-right {
+  margin: 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail-right h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  gap: 5px;
+  color: black;
+  font-size: 16px;
+}
+
+.price {
+  display: flex;
+  margin: 40px 0px;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.old-price {
+  color: gray;
+  text-decoration: line-through;
+}
+.size h1 {
+  margin-top: 50px;
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sizes {
+  display: flex;
+  margin: 30px 0px;
+  gap: 20px;
+}
+
+.sizes div {
+  padding: 18px 24px;
+  backgroung: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.product-detail-right button {
+  padding: 20px 40px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: red;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.category {
+  margin-top: 10px;
+}
+
+.category span {
+  font-weight: 600;
+}
