@@ -4,8 +4,8 @@ const DescriptionBox = () => {
   return (
     <div className="descriptionBox">
       <div className="navigator">
-        <div className="navbox">Description</div>
-        <div className="navbox fade">Reviews (122)</div>
+        <div className="nav-box">Description</div>
+        <div className="nav-box fade">Reviews (122)</div>
       </div>
 
       <div className="description">

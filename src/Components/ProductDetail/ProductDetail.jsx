@@ -40,7 +40,7 @@ const ProductDetail = (props) => {
           <div className="new-price">${product.new_price}</div>
         </div>
 
-        <div className="discription">This is a description.</div>
+        <div className="description">This is a description.</div>
 
         <div className="size">
           <h1>Select Size</h1>
